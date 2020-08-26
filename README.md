@@ -14,3 +14,13 @@
 <h3>Data Set Description</h3>
 <p>The dataset that will be used for this project was collected from a CodaLab competition for classification of leukemic cells from normal cells in microscopic images.</p>
 <p>The dataset contains images of leukemic B-lymphoblast cells (malignant cells) and normal B-lymphoid cells. The data set has been preprocessed, as cells have been normalized and segmented from the original images. The images have a final size of roughly 300x300 pixels.</p>
+<p>The data is divided in two folders, one for training the model and one for testing. The complete data set is composed of images from 118 patients. In each folder there are cell images from each patient.</p>
+<p>All the images names follow the following standard naming convention:</p>
+<ul>
+<li>UID_P: P is the subject ID</li>
+<li>UID_P_N: N is the number of image</li>
+<li>UID_P_N_C:C represents the cell count</li>
+<li>UID_P_N_diagnosis:all means cancer cell, hem means healthy cell.</li>
+</ul>
+<p>Training Test set:</p>
+<p>The dataset contains a total of 73 patients of which 47 have cancer and 26 are healthy. The separation of images in training and testing will be done by patients instead of by images of malignant and healthy cells. By doing so, we will not mix images from the same patient in the training and testing.</p>
